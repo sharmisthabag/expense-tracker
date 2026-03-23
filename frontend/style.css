@@ -1,0 +1,115 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.chart-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+.balance-box {
+    font-size: 24px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Left side */
+.transactions {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Right side */
+.chart-wrapper {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.chart-wrapper canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+body {
+    font-family: Arial;
+    background: #f4f6f8;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.transactions, .chart-box {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.transactions ul li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
